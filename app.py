@@ -5,6 +5,7 @@ from streamlit_option_menu import option_menu
 
 st.set_page_config(layout="wide")
 st.title("Cricket Analysis Dashboard")
+st.markdown("This is Data Analysis Project using Python Streamlit in Data Science and Analysis Batch 10")
 
 
 df=pd.read_csv("cleanedfile.csv")
